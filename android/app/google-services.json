@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "973623338702",
+    "firebase_url": "https://login-a2777.firebaseio.com",
+    "project_id": "login-a2777",
+    "storage_bucket": "login-a2777.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973623338702:android:16e4ba5ea50f4250c2d29f",
+        "android_client_info": {
+          "package_name": "co.appbrewery.bmicalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973623338702-h4gasuttgfnlv6arvg1e3d6hf3tkm4su.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoIHg4Xrsm5yxzBYSvKJFZmp4KfiTSiSg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973623338702-h4gasuttgfnlv6arvg1e3d6hf3tkm4su.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

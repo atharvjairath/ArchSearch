@@ -1,0 +1,70 @@
+name: ArchSearch
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+4
+  provider: ^3.1.0
+  flutter_spinkit: "^4.1.2"
+  url_launcher: ^5.7.8
+
+  cupertino_icons: ^0.1.2
+  font_awesome_flutter: ^8.4.0
+  simple_animations: ^1.3.4
+  rflutter_alert: ^1.0.3
+  nice_button: ^0.1.7
+  smooth_star_rating: ^1.1.1
+  intl: ^0.16.0
+  flutter_blue: ^0.7.2
+  flutter_scan_bluetooth: ^1.1.0
+  progress_indicators: ^0.1.5
+  flutter_local_notifications: ^1.4.4+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/design_course/
+    - images/1.png
+    - images/grocery.jpg
+    - images/playstore-icon.png
+    - images/27889-3-green-tick.png
+    - images/wel.png
+    - images/shop1.png
+    - images/male-avatr.png
+    - images/shop_grocery.png
+    - images/barber.png
+    - images/hospital.png
+    - images/restaurant.png
+    - images/chicken.png
+    - images/store.png
+    - images/false.png
+    - images/shopping-fun.png
+    - images/catching-bird-during-busy-day.png
+  fonts:
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/WorkSans-Regular.ttf
+        - asset: assets/fonts/WorkSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/WorkSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/WorkSans-Bold.ttf
+          weight: 700
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 400
