@@ -20,7 +20,6 @@ We are now in recession, it is way worse than the global financial crisis and it
 * Github: [@atharvjairath](https://github.com/atharvjairath)
 * LinkedIn: [@Atharvjairath](https://www.linkedin.com/in/atharv-jairath-99aa78118/)
 
-## Show your support
 ## 🤔 How to contribute
 
 **Make a fork of this repository**
@@ -54,7 +53,7 @@ After your pull request is merged, you can delete your branch
 
 <!-- You can delete the license if you don't want it -->
 
-
+## Show your support
 Give a ⭐️ if this project helped you!
 
 ***
