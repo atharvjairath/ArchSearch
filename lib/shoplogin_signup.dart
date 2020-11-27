@@ -124,7 +124,7 @@ class _State extends State<login_signup> {
                                                 },
                                                 decoration: InputDecoration(
                                                   border: InputBorder.none,
-                                                  hintText: "Username",
+                                                  hintText: "Email",
                                                   hintStyle: TextStyle(
                                                       color: Colors.grey),
                                                 ),
@@ -238,10 +238,12 @@ class _State extends State<login_signup> {
                                 ),
                               ),
                               SizedBox(height: 12.0),
-                              Text(
-                                error,
-                                style: TextStyle(
-                                    color: Colors.red, fontSize: 14.0),
+                              Center(
+                                child: Text(
+                                  error,
+                                  style: TextStyle(
+                                      color: Colors.red, fontSize: 14.0),
+                                ),
                               ),
                             ],
                           ),

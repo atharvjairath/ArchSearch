@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'FadeAnimation.dart';
 import 'auth.dart';
 import 'package:ArchSearch/custlogin_signup.dart';
+import 'package:email_validator/email_validator.dart';
 
 class customer extends StatefulWidget {
   @override
@@ -15,7 +16,17 @@ class _State extends State<customer> {
   final AuthService _auth = AuthService();
   final _formkey = GlobalKey<FormState>();
   String email = "";
+  String check="";
   String password = "";
+
+  String checker(email){
+  final bool isValid = EmailValidator.validate(email);
+  if (isValid){
+    print('Email is valid? ' + (isValid ? 'yes' : 'no'));
+  }
+  return 'Email is valid? ' + (isValid ? 'yes' : 'no');
+}
+
 
   @override
   Widget build(BuildContext context) {
@@ -136,11 +147,10 @@ class _State extends State<customer> {
                       borderRadius: BorderRadius.circular(30.0),
                       child: MaterialButton(
                         onPressed: () async {
+                          check= checker(email);
                           if (_formkey.currentState.validate()) {
                             dynamic result = await _auth
                                 .registerWithEmailAndPassword(email, password);
-                            Navigator.push(context,
-                                    MaterialPageRoute(builder: (context) => customls()));
                           }
                           // print(email);
                           // print(password);
@@ -165,4 +175,5 @@ class _State extends State<customer> {
       ),
     );
   }
+
 }

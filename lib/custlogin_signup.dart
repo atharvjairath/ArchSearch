@@ -113,7 +113,7 @@ class _State extends State<customls> {
                                         },
                                         decoration: InputDecoration(
                                           border: InputBorder.none,
-                                          hintText: "Username",
+                                          hintText: "Email",
                                           hintStyle:
                                               TextStyle(color: Colors.grey),
                                         ),
