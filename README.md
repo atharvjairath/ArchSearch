@@ -11,7 +11,11 @@ SOLUTION - We have decided to create a user interface in the form of a website/m
 We are now in recession, it is way worse than the global financial crisis and it is a crisis that requires all of us to come together. This interface prevents the public from crowding, hoarding supplies, leaving homes unnecessarily and spreading the virus.
 
 ### ✨ [Demo](https://www.youtube.com/watch?v=z4ave28HYSw)
-
+## 🚀 Technologies
+- Flutter
+- Android Studio
+- Dart
+- Firebase
 ## Author
 
 👤 **Atharv Jairath**
